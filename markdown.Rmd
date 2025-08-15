@@ -1,9 +1,9 @@
 ---
 title: "What is a markdown?"
-output: html_document
+output: github_document
 date: "2025-08-15"
 ---
-
+i just write here i guess
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
