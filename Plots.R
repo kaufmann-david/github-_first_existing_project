@@ -50,7 +50,9 @@ ggMarginal(ptherapiestudie, type = "density")
 library(ggplot2)
 library(dplyr)
 library(gapminder)
-ggplot(pisadaten, aes(x = SES, y = Lesekompetenz, size= Alter))+geom_point()+geom_smooth(method = "lm", se=F, color = 2)+theme_bw()+xlab("sozio-ökonomischer Status")+scale_size(range = c(.001, 2), name="Alter")
+ggplot(pisadaten, aes(x = SES, y = Lesekompetenz, size= Alter, color=Sprache))+geom_point()+geom_smooth(method = "lm", se=F, color = 2)+theme_bw()+xlab("sozio-ökonomischer Status")+scale_size(range = c(.001, 2), name="Alter")
+
+
 
 
 
